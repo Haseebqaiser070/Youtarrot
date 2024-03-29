@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "709100448875",
+    "project_id": "cardapp-96d5d",
+    "storage_bucket": "cardapp-96d5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709100448875:android:729bc0e13cfd2efcefd52e",
+        "android_client_info": {
+          "package_name": "com.example.ok_tarrot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709100448875-pnn2eukmbqinr1ehk63o1tmtv1mov7t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe-d5MOf631i-6xHQulBb0Nt1gIcFCazU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709100448875-pnn2eukmbqinr1ehk63o1tmtv1mov7t5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "709100448875-9ucib27vjvgf9oj1pdvkq022rt2te4bt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.okTarrot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ok_tarrot">
+   
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    
+    <application
+        android:label="YouTarot"
+        android:icon="@mipmap/ic_launcher">
+        <activity
+            android:name="com.ryanheise.audioservice.AudioServiceActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+<service 
+    android:name="com.ryanheise.audioservice.AudioService"
+    android:exported="true" 
+   
+    >
+  <intent-filter>
+    <action android:name="android.media.browse.MediaBrowserService" />
+  </intent-filter>
+</service>
+
+<receiver 
+    android:name="com.ryanheise.audioservice.MediaButtonReceiver"
+    android:exported="true" 
+   >
+  <intent-filter>
+    <action android:name="android.intent.action.MEDIA_BUTTON" />
+  </intent-filter>
+</receiver> 
+
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+
+            <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3419835294"/>
+
+    </application>
+</manifest>

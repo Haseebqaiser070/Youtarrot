@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>709100448875-9ucib27vjvgf9oj1pdvkq022rt2te4bt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.709100448875-9ucib27vjvgf9oj1pdvkq022rt2te4bt</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD5Dv1_kGCGjoAkNgRA4VM4RWfQSOdblSY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>709100448875</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.okTarrot</string>
+	<key>PROJECT_ID</key>
+	<string>cardapp-96d5d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cardapp-96d5d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:709100448875:ios:3f6376c576dc4768efd52e</string>
+</dict>
+</plist>
